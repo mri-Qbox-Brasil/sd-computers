@@ -3,7 +3,7 @@
 -- and configs/server/ holds the sensitive data - excluded from fxmanifest files{}, so it never
 -- ships to a client. The server-only files are deep-merged below on the server ONLY.
 local config = {
-    Locale = 'en', -- lib.locale loads locales/<Locale>.json, falling back to en per-key
+    Locale = 'pt-br', -- lib.locale loads locales/<Locale>.json, falling back to en per-key
     Debug = false, -- dev logging (cyan [sd-computers:*] console lines); leave off in production
 
     -- Bridge diagnostics (bridge/shared/debug.lua): very verbose per-call prints from the
